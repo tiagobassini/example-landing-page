@@ -67,7 +67,7 @@ header .menu {
     font-size: 48px;
     margin-bottom: 10px;
 }
-.texto-apresentacao a {
+.btn {
     background-color: #122A57;
     color: #fff;
     text-align: center;
@@ -126,16 +126,16 @@ header .menu {
 #servicos h2 {
     color: #fff;
     font-size: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .list-servicos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
-.list-servicos .item-sevico{
+.list-servicos .item-servico{
     text-align: center;
 }
 
@@ -149,6 +149,38 @@ header .menu {
     line-height: 50px;
     padding: 5px 10px;
     text-decoration: none;
+    color: #122A57;
+    font-size: 12px;
+    font-weight: 700;
 
+}
+
+.item-servico p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+.item-servico img {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+}
+
+.item-plano{
+    flex: 1;
+    border: 5px solid #122A57;
+    margin-right: 20px;
 }
 
